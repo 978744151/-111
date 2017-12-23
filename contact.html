@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style type="text/css">
+
+        .swiper-container {
+            width: 900px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<div class="swiper-container swiper-container-fade swiper-container-horizontal">
+    <div class="swiper-wrapper" style="transition-duration: 0ms;">
+        <div class="swiper-slide" style="background-image: url(image/banner_1.png); width: 1059px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"></div>
+        <div class="swiper-slide" style="background-image: url(image/banner_2.png); width: 1059px; opacity: 1; transform: translate3d(-1059px, 0px, 0px); transition-duration: 0ms;"></div>
+        <div class="swiper-slide swiper-slide-prev" style="background-image: url(image/banner_1.png); width: 1059px; opacity: 1; transform: translate3d(-2118px, 0px, 0px); transition-duration: 0ms;"></div>
+        <div class="swiper-slide swiper-slide-active" style="background-image: url(image/banner_2.png); width: 1059px; opacity: 1; transform: translate3d(-3177px, 0px, 0px); transition-duration: 0ms;"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+</div>
+<script src="js/jquery.min.js"></script>
+
+<script src="js/swiper.jquery.min.js"></script>
+<script>
+//    var mySwiper = new Swiper ('.swiper-container', {
+//        direction: 'horizontal',
+//        loop: true,
+//
+//        // 如果需要分页器
+//        pagination: '.swiper-pagination',
+//
+//        // 如果需要前进后退按钮
+//        nextButton: '.swiper-button-next',
+//        prevButton: '.swiper-button-prev',
+//        autoplay : 1000,
+//        speed:100,
+//        // 如果需要滚动条
+////         scrollbar: '.swiper-scrollbar',
+//        effect : 'coverflow',
+//        slidesPerView: 3,
+//        centeredSlides: true,
+//        coverflow: {
+//            rotate: 30,
+//            stretch: 10,
+//            depth: 60,
+//            modifier: 2,
+//            slideShadows : true
+//        }
+//
+//    })
+    var swiper1 = new Swiper('.swiper-container',{
+        loop:true,//无缝衔接滚动
+        effect:'cube',//滑动效果
+        autoplay:3000,
+        autoplayDisableOnInteraction:false,//用户操作swiper之后不禁止autoplay
+        pagination:'.swiper-pagination',
+        paginationType:'progress',//分页器样式
+        lazyLoading:true,//图片延迟加载
+        lazyLoadingInPrevNext:true,//前一个和后一个延迟加载
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        centeredSlides: true,
+        coverflow: {
+            rotate: 30,
+            stretch: 10,
+            depth: 60,
+            modifier: 2,
+            slideShadows : true
+        }
+    })
+</script>
+
+</body>
+</html>

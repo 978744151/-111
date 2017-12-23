@@ -1,0 +1,113 @@
+.header {
+  height: 55px;
+}
+.header img {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 166px;
+  height: 37px;
+}
+.ct_content {
+  padding: 30px 20px;
+}
+.ct_content h1 {
+  width: 100%;
+  height: auto;
+  color: #404040;
+  font-size: 20px;
+}
+.ct_content .riqi {
+  font-family: 'Microsoft YaHei', arial;
+  color: #999;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  line-height: 1.4;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.red {
+  font-family: 宋体;
+  color: red;
+  font-size: 16px;
+}
+.normal {
+  font-family: 宋体;
+  font-size: 14px;
+  color: #404040;
+  text-align: left;
+  line-height: 26px;
+}
+.center {
+  text-align: center;
+  color: red;
+  font-family: 宋体;
+  font-weight: 900;
+}
+.bold {
+  font-family: 宋体;
+  font-size: 14px;
+  color: #404040;
+  text-align: left;
+  line-height: 26px;
+  font-weight: 900;
+}
+.blackblod {
+  font-family: 宋体;
+  font-size: 12px;
+  font-weight: 900;
+}
+.icon_ys {
+  font-size: 30px!important;
+  color: black;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+.ct_cebian {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 999;
+  font-size: 16px;
+  left: -100%;
+}
+.ct_cebian li {
+  margin-top: 10px;
+  border-bottom: 1px solid white;
+  padding: 5px 20px;
+}
+.ct_cebian li a {
+  color: white;
+}
+.icon-close {
+  position: absolute;
+  right: 0px;
+  font-size: 25px!important;
+  top: 0px;
+  color: white;
+}
+.fade1 {
+  width: 70%!important;
+  height: 50%!important;
+  top: 25%;
+  transform: translateX(-50%);
+  z-index: 94!important;
+  left: -20%;
+}
+.slide1 {
+  top: 30%;
+  right: -17%;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  text-align: center;
+  z-index: 96;
+}
+.banner_1 {
+  z-index: 99!important;
+}
