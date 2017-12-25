@@ -153,21 +153,6 @@
   float: right;
   width: 45%;
 }
-.content .end .sev_btn {
-  width: 135px;
-  height: 40px;
-  background-color: red;
-  line-height: 40px;
-  text-align: center;
-  color: white;
-  display: block;
-  margin: 55px auto;
-  font-size: 14px;
-}
-.content .end p {
-  text-align: center;
-  margin: 0px;
-}
 .content .one_tier img {
   animation: play 1s linear forwards;
   animation-delay: 0.5s;
@@ -182,6 +167,21 @@
     transform: rotateZ(360deg);
     opacity: 1;
   }
+}
+.end .sev_btn {
+  width: 135px;
+  height: 40px;
+  background-color: red;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  display: block;
+  margin: 55px auto;
+  font-size: 14px;
+}
+.end p {
+  text-align: center;
+  margin: 0px;
 }
 .header {
   height: 55px;
@@ -295,6 +295,219 @@
 }
 .banner_1 {
   z-index: 99!important;
+}
+.swiper-slide1 {
+  background: url(../image/banner_1.png) no-repeat;
+  background-size: cover;
+  z-index: 97;
+}
+.ct_cebian > ul > li > a {
+  display: block;
+}
+.pro_content {
+  padding: 10px;
+}
+.pro_content .pro_center {
+  text-align: center;
+}
+.pro_content .pro_center > p {
+  font-family: "Microsoft YaHei";
+  font-size: 24px;
+  color: red;
+}
+.pro_content .pro_center span {
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: black;
+  font-weight: 900;
+}
+.pro_content .pro_img {
+  display: flex;
+}
+.pro_content .pro_img img:nth-child(1) {
+  width: 50%;
+}
+.pro_content .pro_img img:nth-child(2) {
+  width: 50%;
+}
+.pro_content .pro_img2 {
+  width: 100%;
+}
+.ject_content {
+  padding: 10px;
+}
+.ject_content .ject_center {
+  text-align: center;
+}
+.ject_content .ject_center > p {
+  font-family: "Microsoft YaHei";
+  font-size: 24px;
+  color: red;
+}
+.ject_content .ject_center span {
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: black;
+  font-weight: 900;
+}
+.ject_content .ject_img li {
+  width: 48%;
+  float: left;
+  margin-left: 1%;
+}
+.ject_content .ject_text {
+  padding: 8%;
+  text-align: center;
+  line-height: 30px;
+}
+.ject_content .ject_text a {
+  padding: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #666;
+  background-color: #eee;
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.ject_content .ject_end {
+  padding: 0px 20px;
+  height: 150px;
+  background-color: black;
+  color: white;
+}
+.ject_content .ject_end p {
+  margin-top: 20px;
+}
+.news_content {
+  padding: 10px;
+}
+.news_content .new_center {
+  text-align: center;
+}
+.news_content .new_center > p {
+  font-family: "Microsoft YaHei";
+  font-size: 24px;
+  color: red;
+}
+.news_content .new_center span {
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: black;
+  font-weight: 900;
+}
+.news_content .news_list li {
+  margin-top: 10px;
+}
+.news_content .news_list li .news_img {
+  width: 30%;
+  height: 88px;
+}
+.news_content .news_list li .news_img img {
+  height: 100%;
+}
+.news_content .news_list li .news_text {
+  width: 68%;
+  margin-left: 1%;
+}
+.news_content .news_fenye {
+  margin-top: 20px;
+  padding: 8%;
+  text-align: center;
+  line-height: 30px;
+}
+.news_content .news_fenye a {
+  padding: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #666;
+  background-color: #eee;
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.tact_content {
+  padding: 10px;
+}
+.tact_content .tact_center {
+  text-align: center;
+}
+.tact_content .tact_center > p {
+  font-family: "Microsoft YaHei";
+  font-size: 24px;
+  color: red;
+}
+.tact_content .tact_center span {
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: black;
+  font-weight: 900;
+}
+.tact_content .tact_text {
+  background-color: red;
+  padding: 20px;
+}
+.tact_content .tact_text input {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.tact_content .tact_text textarea {
+  padding: 15px;
+  margin-top: 10px;
+  width: 100%;
+  height: 130px;
+}
+.tact_content .tact_text button {
+  display: inline-block;
+  margin: 0 0 0 12px;
+  padding: 0 16px;
+  cursor: pointer;
+  outline: none;
+  min-width: 54px;
+  line-height: 40px;
+  float: right;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: transparent;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: transparent;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: transparent;
+  background-color: #b0061f;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background: -moz-linear-gradient(top, none, none);
+  background: -o-linear-gradient(top, none, none);
+  background: linear-gradient(top, none, none);
+  background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
 }
 .container {
   min-height: 100%;

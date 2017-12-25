@@ -152,21 +152,6 @@
   float: right;
   width: 45%;
 }
-.content .end .sev_btn {
-  width: 135px;
-  height: 40px;
-  background-color: red;
-  line-height: 40px;
-  text-align: center;
-  color: white;
-  display: block;
-  margin: 55px auto;
-  font-size: 14px;
-}
-.content .end p {
-  text-align: center;
-  margin: 0px;
-}
 .content .one_tier img {
   animation: play 1s linear forwards;
   animation-delay: 0.5s;
@@ -181,4 +166,19 @@
     transform: rotateZ(360deg);
     opacity: 1;
   }
+}
+.end .sev_btn {
+  width: 135px;
+  height: 40px;
+  background-color: red;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  display: block;
+  margin: 55px auto;
+  font-size: 14px;
+}
+.end p {
+  text-align: center;
+  margin: 0px;
 }

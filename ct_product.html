@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/merge.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="font_486724_5t8rrtbfjydp9zfr/iconfont.css">
+</head>
+<body>
+<div class="container">
+  <div class="ct_cebian">
+    <i class="iconfont icon-category icon-close"></i>
+    <ul>
+      <li><a href="ct_home.html">&nbsp;&nbsp;首页</a></li>
+      <li><a href="ct_product.html">&nbsp;&nbsp;公司介绍</a></li>
+      <li><a href="ct_project.html">&nbsp;&nbsp;服务项目</a></li>
+      <li><a href="ct_news.html">&nbsp;&nbsp;新闻中心</a></li>
+      <li><a href="ct_contact.html">&nbsp;&nbsp;联系我们</a></li>
+    </ul>
+  </div>
+  <div class="header">
+    <i class="iconfont icon-category icon_ys"></i>
+    <img src="image/top.png" alt="" class="top_img">
+  </div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide1">
+        <!--<img src="image/banner_1.png" alt=""  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="banner_1">-->
+        <img  src="image/-2834.png" class="fade"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" >
+        <p class="slide">
+          <span class="white">全游娱乐</span><br>
+          <span style="font-size:14px;" class="white">共同发展，共赢美好</span>
+        </p>
+      </div>
+      <div class="swiper-slide">
+        <img src="image/banner_2.png" alt="">
+        <img  src="image/-2834.png" class="fade1"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" >
+        <p class="slide1">
+          <span class="white" style="font-size:22px;">全游娱乐</span><br>
+          <span style="font-size:14px;" class="white">共同发展，共赢美好</span>
+        </p>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <!--<div class="swiper-button-prev"></div>-->
+    <!--<div class="swiper-button-next"></div>-->
+  </div>
+  <div class="pro_content">
+    <div class="pro_center">
+      <p>ABOUT US</p>
+      <span>关于我们</span>
+    </div>
+    <div class="pro_img">
+      <img src="image/-2890 (1).png" alt="">
+      <img src="image/-2891.png" alt="">
+    </div>
+    <img src="image/-2892.png" alt="" class="pro_img2">
+    <div class="pro_text">
+      <p>   XX是XXX集团旗下全资子公司，注册资本1000万，公司主要从事互联网金融行业，旗下平台“人际融”，是国内首创的社交金融平台，公司成立半年多以来网络大批有识之士前来合作，公司团队有来自清华大学MBA，吉林大学、英国留学硕士等优秀人才，以下是平台概要，平台还在测试阶段，择日上线，望多多包涵</p>
+
+
+        <p>　人际融是国内首创社交金融平台，平台隶属于远洋爱普(北京)投资管理有限公司。公司致力于打造一个安全、透明、人性化的社交金融服务平台，在互联网社交的环境下实现投融资风控、支付等最佳体验。主要创始团队成员均毕业于清华大学，在互联网、证券、银行、网贷等行业有丰富管理经验。</p>　
+
+        　<p>　人际融在互联网金融的基础上进一步提出社交金融的概念，是指在互联网社交环境下实现金融主要功能，从而使得金融更加透明、成本更低、体验更好。对于融资方来说，可以根据自己的资金使用需求，自定义还款时间、方式、金额等，从而实现融资DIY。对于投资者来说，可以通过选择自己适合的投资标的和便捷的债权转让实现更加自由、灵活的投资体验。</p>
+
+        <p>　　人际融采用线上线下相结合的方式，线下联合担保公司、银行、律师，并且拥有专业的风控团队，为每个项目配备专属的律师和服务团队;线上拥有实力雄厚的基金支持和债权回购，实现债权交易自由流转。</p>
+
+        　　<p>公司愿景：</p>
+        　　<p>让人们更平等、更便捷地获得金融支持</p>
+
+        　　<p>公司目标：</p>
+        　 <p>成为用户体验最佳的互联网金融平台</p>
+      </p>
+    </div>
+  </div>
+  <div class="end">
+    <a class="sev_btn" href="#">
+      查看更多
+    </a>
+    <p>本网站由阿里云提供云计算及安全服务</p>
+    <p> Powered by  五叶草互联</p>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script>
+  var mySwiper;
+  mySwiper = new Swiper('.swiper-container', {
+    autoplay: 3000,//可选选项，自动滑动
+    speed: 500,
+    loop: true,
+    direction: 'horizontal',
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+
+    onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+//            swiperAnimateCache(swiper); //隐藏动画元素
+      swiperAnimate(swiper); //初始化完成开始动画
+      $('.fade').animate({
+        left: "50%",
+        opacity: "1",
+        top: "25%"
+      }, 1000, function () {
+        $('.slide').animate({
+          right: "50%",
+          opacity: "1"
+        }, 1000)
+      })
+
+    },
+    onSlideChangeEnd: function (swiper) {
+      swiperAnimate(swiper); //每个slide切换结束时也运行++当前slide动画
+      $('.fade1').animate({
+        left: "50%",
+        opacity: "1",
+        top: "25%"
+      }, 1000, function () {
+        $('.slide1').animate({
+          right: "50%",
+          opacity: "1"
+        }, 1000)
+      })
+
+
+    }
+  });
+  $('.icon_ys').on('click', function () {
+    $('.ct_cebian').animate({
+      left:'0%'
+    },1000)
+  })
+  $('.icon-close').on('click', function () {
+    $('.ct_cebian').animate({
+      left:'-100%'
+    },1000)
+  })
+</script>
+</body>
+</html>
